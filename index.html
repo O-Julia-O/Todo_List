@@ -12,7 +12,74 @@
 <body>
 
     <main class="app">
-        
+        <section class="greeting">
+            <h2 class="title">
+                What's up, <input type="text" id="name" placeholder="Name here">
+            </h2>
+        </section>
+
+        <section class="create-todo">
+            <h3>CREATE A TODO</h3>
+
+            <form id="new-todo-form">
+                <h4>What's on your todo list?</h4>
+                <input type="text" name="content" id="content" placeholder="e.g. make a video">
+
+                <h4>Pick a category</h4>
+                <div class="options">
+                    <label>
+                        <input type="radio" name="category" id="category1" value="business">
+                        <span class="bubble business"></span>
+                        <div>Business</div>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="category" id="category2" value="personal">
+                        <span class="bubble personal"></span>
+                        <div>Personal</div>
+                    </label>
+
+                    <input type="submit" value="Add todo">
+                </div>
+            </form>
+        </section>
+
+        <section class="todo-list">
+            <h3>TODO LIST</h3>
+            <div class="list" id="todo-list">
+                <div class="todo-item">
+                    <label>
+                        <input type="checkbox">
+                        <span class="bubble business"></span>
+                    </label>
+
+                    <div class="todo-content">
+                        <input type="text" value="Make a video" readonly>
+                    </div>
+
+                    <div class="actions">
+                        <div class="edit">Edit</div>
+                        <div class="delete">Delete</div>
+                    </div>
+
+                    <div class="todo-item">
+                        <label>
+                            <input type="checkbox">
+                            <span class="bubble personal"></span>
+                        </label>
+    
+                        <div class="todo-content">
+                            <input type="text" value="Solve a task" readonly>
+                        </div>
+    
+                        <div class="actions">
+                            <div class="edit">Edit</div>
+                            <div class="delete">Delete</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <script src="script.js"></script>
