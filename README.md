@@ -11,7 +11,7 @@
 <br>
 
 <h3>💻 About<a name="about"></a></h3>
-<p>A simple Todo List App in HTML, CSS & JavaScript with LocalStorage</p>
+<p>A simple Todo List App in HTML, CSS & JavaScript with LocalStorage</p> Watch <a href="https://o-julia-o.github.io/Todo_List/">here! 🪐</a> 
 <br>
 
 <h3>🛠 Build with<a name="-built-with-"></a></h3>
